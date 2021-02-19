@@ -1,0 +1,32 @@
+# Fahrenheit-to-Celsius-Convertor
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Fahrenheit to Celsius</title>
+    <!--Link style.css and google fonts-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2|Hepta+Slab&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <!--All text inside div box-->
+        <h1 class="title">Fahrenheit to Celsuis Converter</h1>
+        <div class="span-text"><h1 class="box-text">°C = (°F - 32) x 5 / 9</h1></div>
+        <h2>Input</h2>
+        <!--Specifies that input type must be a number-->
+        <p>Temperature in Fahrenheit : <input id="fahrenheit-input" type="number"></p>
+        <button id="convertBtn">CONVERT</button>
+
+        <h2>Output</h2>
+        <!--span id tells javascript where to put the output-->
+        <p>Temperature in Celsius: <strong><span id="celsiusOutput"> _____ </span></strong>
+    </div>
+
+ <!--Load JavaScript--> 
+ <script src="main.js"></script>
+
+</body>
+
+</html>
